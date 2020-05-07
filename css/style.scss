@@ -1,0 +1,25 @@
+nav{
+    ul{
+      li{
+        a{
+          .icon
+            {
+                font-size: 13px;
+            }
+          .span-detail
+            {
+               font-size: 13px;
+               font-family: 'Montserrat', sans-serif;
+               padding-left: 8px;
+            }
+         }   
+        }
+    }
+}
+header{
+	height: 700px;
+	width: 100%;
+	background-image: url(../img/slide1.png);
+	background-size:cover;
+  background-repeat: no-repeat;
+}
