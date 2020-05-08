@@ -12,7 +12,22 @@ nav{
                font-family: 'Montserrat', sans-serif;
                padding-left: 8px;
             }
-         }   
+           :before{
+              content: '';
+              width: 0px;
+              height: 5px;
+              background-color: #00bcd4;
+              position: absolute;
+              top:100%;
+              left: 0;
+              transition: .5s;
+            }
+            position: relative;
+         }  
+         :hover a:before{
+            width: 80%;
+            transform: translateX(100%);
+         }
         }
     }
 }

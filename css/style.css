@@ -1,9 +1,26 @@
-nav ul li a .icon {
-  font-size: 13px; }
-nav ul li a .span-detail {
-  font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 8px; }
+nav ul li a {
+  position: relative;
+ }
+  nav ul li a .icon {
+    font-size: 13px; }
+  nav ul li a .span-detail {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 8px; }
+  nav ul li a:before {
+    content: '';
+    width: 0px;
+    height: 5px;
+    background-color: #00bcd4;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s; 
+}
+nav ul li:hover a:before {
+  width:50%;
+  transform: translateX(100%);
+   }
 
 header {
   height: 700px;
