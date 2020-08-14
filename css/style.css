@@ -1,32 +1,22 @@
-nav ul li a {
-  position: relative;
- }
-  nav ul li a .icon {
-    font-size: 13px; }
-  nav ul li a .span-detail {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 8px; }
-  nav ul li a:before {
-    content: '';
-    width: 0px;
-    height: 5px;
-    background-color: #00bcd4;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transition: .5s; 
-}
-nav ul li:hover a:before {
-  width:50%;
-  transform: translateX(100%);
-   }
-
 header {
   height: 700px;
   width: 100%;
   background-image: url(../img/slide1.png);
   background-size: cover;
   background-repeat: no-repeat; }
+  header .first-head ul {
+    margin: 0;
+    padding: 13px 0px; }
+  header .first-head li {
+    padding: 0; }
+  header .first-head a {
+    color: #B2B3E7;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; }
+    header .first-head a .span-detail {
+      padding-left: 8px; }
+    header .first-head a .icon {
+      color: #A1A7EA !important; }
 
 /*# sourceMappingURL=style.css.map */

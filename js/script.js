@@ -1,4 +1,8 @@
+// $(document).ready(function(){
+//   $('.sidenav').sidenav();
+// });
+
 $(document).ready(function(){
-  $('.sidenav').sidenav();
+  $('.tabs').tabs();
 });
-  console.log("heeloo");
+    
